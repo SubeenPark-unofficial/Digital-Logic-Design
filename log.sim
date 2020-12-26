@@ -1,0 +1,14 @@
+%Warning-WIDTH: ../..//ProcessTT.v:68: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'temp' generates 8 bits.
+%Warning-WIDTH: Use "/* verilator lint_off WIDTH */" and lint_on around source to disable this message.
+%Warning-WIDTH: ../..//ProcessTT.v:75: Operator COND expects 32 or 8 bits on the Conditional False, but Conditional False's VARREF 'finalHH' generates 7 bits.
+%Warning-WIDTH: ../..//ProcessTT.v:79: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'temp' generates 8 bits.
+%Warning-WIDTH: ../..//ProcessTT.v:81: Operator ASSIGN expects 8 bits on the Assign RHS, but Assign RHS's VARREF 'finalMM' generates 7 bits.
+%Warning-WIDTH: ../..//ProcessTT.v:87: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'temp' generates 8 bits.
+%Warning-WIDTH: ../..//ProcessTT.v:90: Operator ASSIGN expects 8 bits on the Assign RHS, but Assign RHS's VARREF 'finalHH' generates 7 bits.
+%Warning-WIDTH: ../..//ProcessTT.v:96: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'temp' generates 8 bits.
+%Warning-WIDTH: ../..//ProcessTT.v:102: Operator ASSIGN expects 8 bits on the Assign RHS, but Assign RHS's VARREF 'finalMM' generates 7 bits.
+%Warning-WIDTH: ../..//ProcessTT.v:108: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'temp' generates 8 bits.
+%Warning-WIDTH: ../..//ProcessTT.v:114: Operator ASSIGN expects 8 bits on the Assign RHS, but Assign RHS's VARREF 'finalSS' generates 7 bits.
+%Warning-WIDTH: ../..//ProcessTT.v:120: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'temp' generates 8 bits.
+%Error: Exiting due to 11 warning(s)
+%Error: Command Failed /home/ise/VM/Final_ISE/SNU-BoardSim/verilator/bin/verilator_bin --cc ../../top.v -I../../ --exe sim.cpp
